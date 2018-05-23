@@ -12,10 +12,10 @@
     <releaseNotes>$ReleaseNotes$</releaseNotes>
     <tags>serialization serializability iserializable binaryformatter inspection warning</tags>
     <dependencies>
-      <dependency id="Wave" version="$DependencyVer$" />
+      <dependency id="Wave" version="$wave$" />
     </dependencies>
   </metadata>
   <files>
-    <file src="$BinDirInclude$\$Configuration$\SerializationInspections.Plugin.*" target="dotFiles" />
+    <file src="SerializationInspections.Plugin\bin\$Configuration$\SerializationInspections.Plugin.*" target="dotFiles" />
   </files>
 </package>

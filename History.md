@@ -1,3 +1,6 @@
+### 2018.1.0 ###
+- ReSharper 2018.1 support
+
 ### 1.9.0 ###
 - ReSharper 2017.3 support
 

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = ".build", "build\.build.csproj", "{D478AA18-9E9E-4F4E-A750-3C3CE9018784}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{26B55A35-CCB1-4635-871A-EE770850A5F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionItems", "SolutionItems.csproj", "{6ADCE94D-EF87-42F6-A68B-69DA6FD90DE6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationInspections.Sample", "Src\SerializationInspections.Plugin.Tests\test\data\SerializationInspections.Sample.csproj", "{4AF4FFEC-2FAC-426A-B8B2-06F4D9F52392}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationInspections.Plugin.RS20173", "Src\SerializationInspections.Plugin\SerializationInspections.Plugin.RS20173.csproj", "{8A4B1037-2AF1-4872-9D45-4935E2FEF8EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationInspections.Plugin.RS", "Src\SerializationInspections.Plugin\SerializationInspections.Plugin.RS.csproj", "{8A4B1037-2AF1-4872-9D45-4935E2FEF8EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationInspections.Plugin.Tests.RS20173", "Src\SerializationInspections.Plugin.Tests\SerializationInspections.Plugin.Tests.RS20173.csproj", "{82114976-6FD3-4077-ABE3-B2F11B4823B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationInspections.Plugin.Tests.RS", "Src\SerializationInspections.Plugin.Tests\SerializationInspections.Plugin.Tests.RS.csproj", "{82114976-6FD3-4077-ABE3-B2F11B4823B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D478AA18-9E9E-4F4E-A750-3C3CE9018784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D478AA18-9E9E-4F4E-A750-3C3CE9018784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ADCE94D-EF87-42F6-A68B-69DA6FD90DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6ADCE94D-EF87-42F6-A68B-69DA6FD90DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ADCE94D-EF87-42F6-A68B-69DA6FD90DE6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
